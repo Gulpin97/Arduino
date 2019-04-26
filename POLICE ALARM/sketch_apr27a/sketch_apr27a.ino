@@ -7,6 +7,8 @@ void setup() {
 }
 
 void loop() {
+  for(int i=0;i<40;i++)
+  {
   digitalWrite(13,HIGH);
   digitalWrite(8,HIGH);
   digitalWrite(7,HIGH);
@@ -17,5 +19,36 @@ void loop() {
   digitalWrite(7,LOW);
   digitalWrite(4,LOW);
   delay(80);
-
+  }
+  delay(100);
+  digitalWrite(13,HIGH);
+  delay(100);
+  digitalWrite(13,LOW);
+  digitalWrite(8,HIGH);
+  delay(100);
+  digitalWrite(8,LOW);
+  digitalWrite(7,HIGH);
+  delay(100);
+  digitalWrite(7,LOW);
+  digitalWrite(4,HIGH);
+  delay(100);
+  digitalWrite(4,LOW);
+  delay(100);
+  digitalWrite(4,HIGH);
+  delay(100);
+  digitalWrite(4,LOW);
+  delay(100);
+  digitalWrite(7,HIGH);
+  delay(100);
+  digitalWrite(7,LOW);
+  delay(100);
+  digitalWrite(8,HIGH);
+  delay(100);
+  digitalWrite(8,LOW);
+  delay(100);
+  digitalWrite(13,HIGH);
+  delay(100);
+  digitalWrite(13,LOW);
+  delay(100);
+  
 }
